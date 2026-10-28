@@ -4,25 +4,21 @@
 
 This project focuses on building a SQL-based data warehouse from scratch, following the hands-on tutorial **“SQL Data Warehouse from Scratch | Full Hands-On Data Engineering Project”** by **Baraa from Data with Baraa**.
 
-The project aims to develop a data warehouse that integrates data from ERP and CRM source systems, applies data cleansing and transformation rules, and prepares the data for analytical reporting.
+The project integrates data from ERP and CRM source systems, applies data cleansing and transformation rules, and organizes the data into a unified model to support analytical reporting and business insights.
 
-As a Quality Engineering (QE) professional, I am also incorporating a dedicated testing approach to validate data quality, transformation accuracy, data integration, and the reliability of the resulting warehouse.
+Following the **Medallion Architecture**, the data warehouse is structured into three layers:
 
-This repository serves as a learning and portfolio project to strengthen my skills in SQL, data warehousing, ETL testing, and data quality assurance. 
-
-### Data Warehouse Architecture
-
-The project follows the **Medallion Architecture**, organizing data into three layers:
-
-- **Bronze Layer:** Stores raw data ingested from source systems such as ERP and CRM.
+- **Bronze Layer:** Stores raw data ingested from source systems.
 - **Silver Layer:** Cleanses, standardizes, and transforms data to improve data quality and consistency.
-- **Gold Layer:** Presents business-ready data models designed for analytical queries and reporting.
+- **Gold Layer:** Organizes business-ready data into analytical models for reporting and decision-making.
 
-From a Quality Engineering perspective, each layer provides an opportunity to validate data completeness, transformation accuracy, data consistency, and source-to-target reconciliation.
+As a Quality Engineering (QE) professional, I am extending the project with a strong focus on **data warehouse testing and quality assurance**. This includes validating data completeness, transformation accuracy, data consistency, source-to-target reconciliation, and the reliability of data across the warehouse layers.
+
+This repository serves as a learning and portfolio project to strengthen my expertise in SQL, data warehousing, ETL testing, and data quality assurance while demonstrating how Quality Engineering practices can contribute to building reliable, analytics-ready data solutions.
 
 ## Project Objectives
 
-### 1. <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/6eb35db0-e3a6-495e-ae42-7f5b5a5ba90b" /> Data Warehouse Development
+### 1. Data Warehouse Development <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/6eb35db0-e3a6-495e-ae42-7f5b5a5ba90b" /> 
 
 - **Data Sources:** Import data from ERP and CRM systems provided as CSV files.
 - **Data Quality:** Identify and address data quality issues during data preparation.
@@ -31,7 +27,7 @@ From a Quality Engineering perspective, each layer provides an opportunity to va
 - **Documentation:** Document the architecture, data model, and transformation logic.
 - **Scope:** Focus on the latest available dataset; historical data tracking is outside the initial project scope.
 
-### 2. <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/d9f61d0e-fb24-4c41-a744-da6d876c3114" /> Quality Engineering & Data Testing
+### 2. Quality Engineering & Data Testing <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/d9f61d0e-fb24-4c41-a744-da6d876c3114" /> 
 
 The testing component focuses on ensuring that data is accurate, complete, consistent, and correctly transformed as it moves through the warehouse.
 
@@ -53,7 +49,7 @@ Testing will be performed using SQL queries and source-to-target comparisons. Te
 
 Potential defects and data quality issues will be documented with supporting evidence and expected outcomes.
 
-### 3. <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/cb3d14c1-c593-4134-9d95-2fa4a20b3d30" /> BI Analytics & Reporting
+### 3. BI Analytics & Reporting <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/cb3d14c1-c593-4134-9d95-2fa4a20b3d30" />  
 
 Develop SQL-based analytical queries to generate insights into:
 
@@ -117,7 +113,7 @@ Testing documentation, SQL validation queries, and results will be added progres
 - Develop reusable SQL validation queries.
 - Use Git and GitHub to maintain and document a technical portfolio.
 
-## <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/6ff2b553-a225-41f9-a2e3-50891bbc9289" /> Credits & Acknowledgements
+## Credits & Acknowledgements <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/6ff2b553-a225-41f9-a2e3-50891bbc9289" /> 
 
 The core project concept, learning material, and warehouse implementation approach are based on the tutorial:
 
